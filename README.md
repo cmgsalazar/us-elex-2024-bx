@@ -18,6 +18,8 @@ Resulting analysis will be used for a reporting assignment that looks into votin
 
 We created a new column that merges the assembly district and election district numbers, so we have a code consistent with geocode IDs. We added all Trump votes and Harris votes, then calculated the differential for choropleth mapping. 
 
+We're using vote differential to visualize the data — instead of simply counting the number of votes — because **lands don't vote; people do**.
+
 ### `csv` files
 
 * `bx-assembly_districs.csv` holds all links of Bronx assembly district votes breakdown
