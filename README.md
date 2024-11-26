@@ -4,6 +4,8 @@ This repository contains data scraped from the [New York City Board of Elections
 
 Resulting analysis will be used for a reporting assignment that looks into voting results in the Bronx, for the [Mott Haven Herald](https://motthavenherald.com/) and [Hunts Point Express](https://huntspointexpress.com/). 
 
+![image](/viz/viz-map.png)
+
 ## Data sources
 
 * [New York City Board of Elections website](https://enr.boenyc.gov/)
@@ -28,6 +30,4 @@ We're using vote differential to visualize the data — instead of simply counti
 
 ### `viz`
 
-This folder holds our Illustrator and exported PNG files. 
-
-![image](/viz/viz-map.png)
+This folder holds our Illustrator and exported PNG file. 
