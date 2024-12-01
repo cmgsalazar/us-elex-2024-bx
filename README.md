@@ -4,7 +4,7 @@ This repository contains data scraped from the [New York City Board of Elections
 
 Resulting analysis will be used for a reporting assignment that looks into voting results in the Bronx, for the [Mott Haven Herald](https://motthavenherald.com/) and [Hunts Point Express](https://huntspointexpress.com/). 
 
-![image](/viz/viz-map.png)
+![image](/viz/viz-map-rev.png)
 
 ## Data sources
 
@@ -18,9 +18,9 @@ Resulting analysis will be used for a reporting assignment that looks into votin
 * `scraper.ipynb` used `BeautifulSoup` to scrape vote results per election district in the Bronx
 * `clean-up.ipnyb` prepared and sanitized dataset for visualization
 
-We created a new column that merges the assembly district and election district numbers, so we have a code consistent with geocode IDs. We added all Trump votes and Harris votes, then calculated the differential for choropleth mapping. 
+I created a new column that merges the assembly district and election district numbers, so we have a code consistent with geocode IDs. I added all Trump votes and Harris votes, then calculated the differential for choropleth mapping. 
 
-We're using vote differential to visualize the data — instead of simply counting the number of votes — because **lands don't vote; people do**.
+I use vote differential to visualize the data — instead of simply counting the number of votes — because **lands don't vote; people do**.
 
 ### `csv` files
 
