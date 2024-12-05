@@ -18,15 +18,17 @@ Resulting analysis will be used for a reporting assignment that looks into votin
 * `scraper.ipynb` used `BeautifulSoup` to scrape vote results per election district in the Bronx
 * `clean-up.ipnyb` prepared and sanitized dataset for visualization
 
-I created a new column that merges the assembly district and election district numbers, so we have a code consistent with geocode IDs. I added all Trump votes and Harris votes, then calculated the differential for choropleth mapping. 
+I created a new column that merges the assembly district and election district numbers, so we have a code consistent with geocode IDs. 
 
-I use vote differential to visualize the data — instead of simply counting the number of votes — because **lands don't vote; people do**.
+In an earlier version, I added all Trump votes and Harris votes, then calculated the differential vote counts for choropleth mapping. **In this version**, I also calculated for the percentages of Trump and Harris votes, so we can use a fixed barometer (percentage points) to compare with other election years.
+
+I use vote differential to visualize the data — instead of simply counting the number of votes — because *lands don't vote; people do*.
 
 ### `csv` files
 
 * `bx-assembly_districs.csv` holds all links of Bronx assembly district votes breakdown
 * `electoral_district_votes.csv` holds scraped unofficial election night results in each of the electoral districts in Bronx assembly districts
-* `electoral_district_for_viz.csv` holds "prepared" data for viz
+* `2020_votes_full` holds our main dataset, which includes vote counts and percentage of votes (both per candidate and totals)
 
 ### `viz`
 
