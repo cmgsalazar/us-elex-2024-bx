@@ -32,4 +32,4 @@ I use vote differential to visualize the data — instead of simply counting the
 
 ### `viz`
 
-This folder holds our Illustrator and exported PNG file. 
+This folder holds our Illustrator and exported PNG file. The version of visualization embedded here shows value counts of vote differential. 
